@@ -1,0 +1,39 @@
+﻿/*Color Theme:
+#444D54 - Darkest
+#74ABDB
+#ABC1D4 - Lightest
+
+*/
+
+
+/* Font Style:
+font-family: 'Ubuntu', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/*Header Styling*/
+
+header{background-color:#FFFFFF;color:#ABC1D4;display:block;border-top:solid;border-bottom:solid;padding:1.5em;}
+header p{margin:1em;font-weight:bolder;}
+/*General Body Styling*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #444D54;
+    font-weight: bolder;margin:2em;
+    padding:1.5em;
+}
+
+/*Navigation Styling*/
+nav ul li a{padding: .3em;display:block;}
+nav li {display: inline-block;}
+nav ul {background-color: #74ABDB;}
+nav a {color: #444D54;font-weight:bold;text-decoration:none;}
+nav a:hover, nav a:active, nav a:focus {background-color: #444D54;color:#ABC1D4;text-decoration:none;}
+.navMotion{background-color:#ABC1D4;}
+
+/*Background*/
+
+body {background-image: url('../images/Background_Mountains.jpg');background-repeat: no-repeat;background-attachment: scroll;}
+
+/*Footer*/
+footer{color:#444D54;font-size:12px;padding:.5em;border-top:solid;background-color:#ABC1D4;}

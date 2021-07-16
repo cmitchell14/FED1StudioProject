@@ -68,7 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contact.html" />
-    <Content Include="scripts\PracticeStyleSheet.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\Background_Mountains.jpg" />
+    <Content Include="images\WildernessSurvivalistsLogo.jpg" />
+    <Content Include="scripts\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
     <Content Include="index.html" />
@@ -87,7 +90,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
