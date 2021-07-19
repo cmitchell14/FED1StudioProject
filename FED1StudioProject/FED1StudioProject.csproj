@@ -69,7 +69,12 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="favicon.ico" />
+    <Content Include="images\AboutUsMountainImage.jpg" />
     <Content Include="images\Background_Mountains.jpg" />
+    <Content Include="images\classesFishing.jpg" />
+    <Content Include="images\classFires.jpg" />
+    <Content Include="images\Logo_WilSurvive.jpg" />
+    <Content Include="images\PolarBear_AboutUs.jpeg" />
     <Content Include="images\WildernessSurvivalistsLogo.jpg" />
     <Content Include="scripts\custom.css" />
     <Content Include="Team.html" />

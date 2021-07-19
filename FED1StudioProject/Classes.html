@@ -2,105 +2,201 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Wilderness Survival | If you are looking for a place to push you to the limits, and teach you how to survive on your own in the wild, then look no further.  Start your transformation from City Slicker, to a Backwoods Beast." />
+    <meta name="description" content="Wilderness Survivalists | If you are looking for a place to push you to the limits, and teach you how to survive on your own in the wild, then look no further.  Start your transformation from City Slicker, to a Backwoods Beast." />
     <meta name="author-" content="Caleb M. Mitchell Esq." />
     <meta name="keywords" content="Mountain, Mountains, Survival, Bears, Training, Wilderness," />
-    <title>Wilderness Survivalist | Learn to Survive Anything</title>
+    <title>Wilderness Survivalists | Learn to Survive Anything</title>
     <link href="scripts/custom.css" rel="stylesheet" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        table, tr, td, th {
+            border: 0 solid black;
+            border-collapse: collapse;
+        }
+
+        table {
+            margin: auto;
+            margin-bottom: 2em;
+        }
+
+        th {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 3em;
+        }
+
+        td, th {
+            padding: .3em
+        }
+
+        thead {
+            border: none;
+        }
+
+        #tableLabels {
+            background-color: #74ABDB;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ABC1D4;
+        }
+
+        .tableHeader {
+            font-size: 24px;
+        }
+
+        /*Gallery Items Styling*/
+
+        div.galleryItem {
+            margin: 5px;
+            border: 1px solid #CCC;
+            display: inline-block;
+            width: 350px;
+        }
+
+            div.galleryItem:hover {
+                border: 1px solid #444D54;
+            }
+
+            div.galleryItem img {
+                width: 100%;
+                height: auto;
+            }
+
+            div.galleryItem a:hover {
+                background-color: #74ABDB;
+            }
+
+        #imageGallery {
+            margin: 0 auto;
+        }
+        /*Allows you to center the content perfectly.  Very helpful for centering content inside of an element.  This centers the element with the ID of imageGallery*/
+        #imageGallery {
+            width: 85%;
+            text-align: center; /*This centers the content inside of the element with the id of imageGallery*/
+        }
+
+        .mainWrapper {
+            padding: 4%;
+        }
+
+    </style>
+
 </head>
 <body>
-    <main>
-        <header>
+    <header class="fixed-header">
+        <div>
+            <a href="https://instagram.com/" target="_blank"><i id="socialMedia" class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i id="socialMedia" class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i id="socialMedia" class="fa fa-facebook-square" aria-hidden="true"> </i></a>
+        </div>
+        <div>
+            <img src="images/Logo_WilSurvive.jpg" alt="Wilderness Survivalists Logo" title="Wilderness Survival Logo" />
+        </div>
+        <h1>
+            Wilderness Survivalists
+        </h1>
+        <p>
+            Learn to Survive Anything, Learn to Do Everything.
+        </p>
+        <br />
+        <div>
+            <nav>
+                <ul class="fixed-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="navMotion"><a href="Classes.html">Classes</a></li>
+                    <li><a href="Team.html">Team</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-            <img src="images/WildernessSurvivalistsLogo.jpg" />
+    <main class="mainWrapper">
+        <article id="imageGallery">
+            <h1 style="font-size: 1.75em">Class Subjects</h1>
+            <div>
+                <div class="galleryItem">
+                    <a href="images/classesFishing.jpg" target="_blank">
+                        <img src="images/classesFishing.jpg" alt="A man fishing in a lake" title="Fishing" />
+                    </a>
+                    <div class="description">Fishing.</div>
+                </div>
+                <div class="galleryItem">
+                    <a href="images/classFires.jpg" target="_blank">
+                        <img src="images/classFires.jpg" alt="Picture of a Campire." title="Campfire" />
+                    </a>
+                    <div class="description">Builing a fire.</div>
+                </div>
+                <div class="galleryItem">
+                    <a href="../images/greg-rakozy-129733-unsplash.jpg" target="_blank">
+                        <img src="../images/greg-rakozy-129733-unsplash.jpg" alt="HTML and CSS book sitting on a table" title="HTML and CSS Books" width="600" height="400" />
+                    </a>
+                    <div class="description">This is a sample image description.</div>
+                </div>
+            </div>
+            <div>
+                <div class="galleryItem">
+                    <a href="../images/hitesh-choudhary-562332-unsplash.jpg" target="_blank">
+                        <img src="../images/hitesh-choudhary-562332-unsplash.jpg" alt="Man sitting in front of computer pointing to a yellow sticky note with code written on it." title="Code Note" width="600" height="400" />
+                    </a>
+                    <div class="description">This is a sample image description.</div>
+                </div>
+                <div class="galleryItem">
+                    <a href="../images/markus-spiske-507983-unsplash.jpg" target="_blank">
+                        <img src="../images/markus-spiske-507983-unsplash.jpg" alt="Black screen displaying computer code with intermitten colored keywords" title="Code" width="600" height="400" />
+                    </a>
+                    <div class="description">This is a sample image description.</div>
+                </div>
+                <div class="galleryItem">
+                    <a href="../images/pankaj-patel-561360-unsplash.jpg" target="_blank">
+                        <img src="../images/pankaj-patel-561360-unsplash.jpg" alt="Split angled black display screen with code written." title="Code" width="600" height="400" />
+                    </a>
+                    <div class="description">This is a sample image description.</div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <section>
 
-            <p>
-                Learn to Survive Anything, Learn to do Everything.
-            </p>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="navMotion"><a href="Classes.html">Classes</a></li>
-                <li><a href="Team.html">Team</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <main>
-            <article>
-                <h1>
-                    Class Subjects
-                </h1>
-                <section>
-                    <!-- TODO Image Placement -->
-                    <h2>Class Topic</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est diam, euismod nec efficitur et, viverra eu sem. In rhoncus arcu dui, sed feugiat tortor ultrices sed. Donec fringilla tincidunt mauris, vitae porta lectus tristique id. Morbi at sem nec nulla euismod dapibus. Curabitur eu urna diam. Fusce a eros id augue vestibulum rutrum. Mauris lacinia libero eget ipsum facilisis, at accumsan urna vulputate. Pellentesque pellentesque est ac mollis placerat.
-                </section>
-                <section>
-                    <!-- TODO Image Placement -->
-                    <h2>Class Topic</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est diam, euismod nec efficitur et, viverra eu sem. In rhoncus arcu dui, sed feugiat tortor ultrices sed. Donec fringilla tincidunt mauris, vitae porta lectus tristique id. Morbi at sem nec nulla euismod dapibus. Curabitur eu urna diam. Fusce a eros id augue vestibulum rutrum. Mauris lacinia libero eget ipsum facilisis, at accumsan urna vulputate. Pellentesque pellentesque est ac mollis placerat.
-                </section>
-                <section>
-                    <!-- TODO Image Placement -->
-                    <h2>Class Topic</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est diam, euismod nec efficitur et, viverra eu sem. In rhoncus arcu dui, sed feugiat tortor ultrices sed. Donec fringilla tincidunt mauris, vitae porta lectus tristique id. Morbi at sem nec nulla euismod dapibus. Curabitur eu urna diam. Fusce a eros id augue vestibulum rutrum. Mauris lacinia libero eget ipsum facilisis, at accumsan urna vulputate. Pellentesque pellentesque est ac mollis placerat.
-                </section>
-                <section>
-                    <!-- TODO Image Placement -->
-                    <h2>Class Topic</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est diam, euismod nec efficitur et, viverra eu sem. In rhoncus arcu dui, sed feugiat tortor ultrices sed. Donec fringilla tincidunt mauris, vitae porta lectus tristique id. Morbi at sem nec nulla euismod dapibus. Curabitur eu urna diam. Fusce a eros id augue vestibulum rutrum. Mauris lacinia libero eget ipsum facilisis, at accumsan urna vulputate. Pellentesque pellentesque est ac mollis placerat.
-                </section>
-                <section>
-                    <!-- TODO Image Placement -->
-                    <h2>Class Topic</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est diam, euismod nec efficitur et, viverra eu sem. In rhoncus arcu dui, sed feugiat tortor ultrices sed. Donec fringilla tincidunt mauris, vitae porta lectus tristique id. Morbi at sem nec nulla euismod dapibus. Curabitur eu urna diam. Fusce a eros id augue vestibulum rutrum. Mauris lacinia libero eget ipsum facilisis, at accumsan urna vulputate. Pellentesque pellentesque est ac mollis placerat.
-                </section>
-                <section>
-                    <!-- TODO Image Placement -->
-                    <h2>Class Topic</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est diam, euismod nec efficitur et, viverra eu sem. In rhoncus arcu dui, sed feugiat tortor ultrices sed. Donec fringilla tincidunt mauris, vitae porta lectus tristique id. Morbi at sem nec nulla euismod dapibus. Curabitur eu urna diam. Fusce a eros id augue vestibulum rutrum. Mauris lacinia libero eget ipsum facilisis, at accumsan urna vulputate. Pellentesque pellentesque est ac mollis placerat.
-                </section>
-            </article>
-            <article>
-                <h2>
-                    [Subject] - Class List
-                </h2>
-                <section>
-                    <table style="width:100%">
-                        <tr>
-                            <th>#</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>User Name</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Class Name</td>
-                            <td>Instructor</td>
-                            <td>Meets</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jacob</td>
-                            <td>Throton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <td>Larry</td>
-                            <td>theBird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </table>
-                </section>
-            </article>
-        </main>
-        <footer>
-            All Right's Reserved 2021
-        </footer>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4" class="tableHeader">  Wilderness Survivalists - Class List</th>
+                </tr>
+
+                <tr id="tableLabels">
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>User Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Class Name</td>
+                    <td>Instructor</td>
+                    <td>Meets</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jacob</td>
+                    <td>Throton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry</td>
+                    <td>theBird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        All Rights Reserved 2021
+    </footer>
 </body>
 </html>

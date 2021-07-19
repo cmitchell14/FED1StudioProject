@@ -2,38 +2,161 @@
 #444D54 - Darkest
 #74ABDB
 #ABC1D4 - Lightest
-
 */
-
 
 /* Font Style:
 font-family: 'Ubuntu', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-/*Header Styling*/
-
-header{background-color:#FFFFFF;color:#ABC1D4;display:block;border-top:solid;border-bottom:solid;padding:1.5em;}
-header p{margin:1em;font-weight:bolder;}
-/*General Body Styling*/
-body {
-    font-family: 'Ubuntu', sans-serif;
+/*Body Design*/
+body{
+    margin:0;
+}
+/*General Main Styling*/
+main {
+    font-family: 'Ubuntu';
     color: #444D54;
-    font-weight: bolder;margin:2em;
-    padding:1.5em;
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 3em 0;
 }
 
 /*Navigation Styling*/
-nav ul li a{padding: .3em;display:block;}
-nav li {display: inline-block;}
-nav ul {background-color: #74ABDB;}
-nav a {color: #444D54;font-weight:bold;text-decoration:none;}
-nav a:hover, nav a:active, nav a:focus {background-color: #444D54;color:#ABC1D4;text-decoration:none;}
-.navMotion{background-color:#ABC1D4;}
+
+nav li {
+    padding: .4em 1em;
+    display: inline-block;
+}
+#headNavWrapper{
+    overflow:hidden;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #ABC1D4;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #444D54;
+    width: 100%;
+    height: 2.295em;
+    position: fixed;
+}
+
+nav a {
+    color: #444D54;
+    text-decoration: none;
+    font-family:Ubuntu;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav li:hover, nav li :active, nav li:focus {
+    text-decoration: none;
+    border-radius: 0 40% 0 40%;
+    background-color: #444D54;
+    color: #ABC1D4
+}
+
+nav li a:hover, nav li a:active, nav li a:focus{
+    color: #ABC1D4;
+}
+
+.navMotion {
+    background-color: #74ABDB;
+    border-radius: 0 40% 0 40%;
+}
+nav li {
+    margin: 0 0 0 5%;
+}
 
 /*Background*/
 
-body {background-image: url('../images/Background_Mountains.jpg');background-repeat: no-repeat;background-attachment: scroll;}
+body {
+    background-image: url('../images/Background_Mountains.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 /*Footer*/
-footer{color:#444D54;font-size:12px;padding:.5em;border-top:solid;background-color:#ABC1D4;}
+footer {
+    color: #444D54;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    background-color: #ABC1D4;
+    font-family: Ubuntu;
+    font-size: .75em;
+    font-weight: bold;
+    margin-bottom:0;
+    height: 3em;
+   
+
+}
+
+/*#region Classes Page Table*/
+
+
+
+/*endregion*/
+
+
+/*Experiment with fixed header & Navigation*/
+body {
+    padding-top: 10vw;
+}
+
+#socialMedia {
+    float: right;
+    font-size: 2vw;
+    padding: 0 .8em;
+}
+
+.fixed-header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: #FFF;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: 7.5vw;
+    background-position: 8% center;
+    padding: 2%;
+    display: block;
+    font-family: Ubuntu, sans-serif;
+}
+
+header img {
+    width: 9.2em;
+    height: auto;
+    padding: 0 0 0 6%;
+    float: left;
+}
+
+header h1, header p {
+    margin: .4% 0 0 15%;
+}
+
+header p {
+    font-size: 1.6em;
+    color: #74ABDB;
+    font-weight: bolder;
+}
+
+
+header h1 {
+    color: #444D54;
+    text-align: left;
+    letter-spacing: 0.1em;
+    font-size: 2.9em;
+}
+
+header i {
+    padding: 0 .5% 0 0;
+}
+
+    header i:hover {
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, .5);
+
+}
