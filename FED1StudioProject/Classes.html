@@ -56,6 +56,8 @@
 
             div.galleryItem:hover {
                 border: 1px solid #444D54;
+                box-shadow: rgba( 20, 20, 20, .5); 
+                background-color: #74ABDB;
             }
 
             div.galleryItem img {
@@ -65,19 +67,20 @@
 
             div.galleryItem a:hover {
                 background-color: #74ABDB;
+                box-shadow: rgba( 20, 20, 20, .5);
             }
 
         #imageGallery {
             margin: 0 auto;
         }
-        /*Allows you to center the content perfectly.  Very helpful for centering content inside of an element.  This centers the element with the ID of imageGallery*/
+      
         #imageGallery {
             width: 85%;
-            text-align: center; /*This centers the content inside of the element with the id of imageGallery*/
+            text-align: center; 
         }
 
         .mainWrapper {
-            padding: 4%;
+            padding: 3.7%;
         }
 
     </style>
@@ -123,43 +126,43 @@
                     <div class="description">Fishing.</div>
                 </div>
                 <div class="galleryItem">
-                    <a href="images/classFires.jpg" target="_blank">
-                        <img src="images/classFires.jpg" alt="Picture of a Campire." title="Campfire" />
+                    <a href="images/classesFire.jpg" target="_blank">
+                        <img src="images/classesFire.jpg" alt="Picture of a Campire." title="Campfire" />
                     </a>
-                    <div class="description">Builing a fire.</div>
+                    <div class="description">Building a fire.</div>
                 </div>
                 <div class="galleryItem">
-                    <a href="../images/greg-rakozy-129733-unsplash.jpg" target="_blank">
-                        <img src="../images/greg-rakozy-129733-unsplash.jpg" alt="HTML and CSS book sitting on a table" title="HTML and CSS Books" width="600" height="400" />
+                    <a href="images/classesBackpacking.jpg" target="_blank">
+                        <img src="images/classesBackpacking.jpg" alt="Two people backpacking in the mountains." title="Backpacking" />
                     </a>
-                    <div class="description">This is a sample image description.</div>
+                    <div class="description">Backpacking in the mountains.</div>
                 </div>
             </div>
             <div>
                 <div class="galleryItem">
-                    <a href="../images/hitesh-choudhary-562332-unsplash.jpg" target="_blank">
-                        <img src="../images/hitesh-choudhary-562332-unsplash.jpg" alt="Man sitting in front of computer pointing to a yellow sticky note with code written on it." title="Code Note" width="600" height="400" />
+                    <a href="images/classesHunting.jpg" target="_blank">
+                        <img src="images/classesHunting.jpg" alt="Man sitting in camoulflage hunting." title="Hunting" width="600" height="400" />
                     </a>
-                    <div class="description">This is a sample image description.</div>
+                    <div class="description">Hunting lessons</div>
                 </div>
                 <div class="galleryItem">
-                    <a href="../images/markus-spiske-507983-unsplash.jpg" target="_blank">
-                        <img src="../images/markus-spiske-507983-unsplash.jpg" alt="Black screen displaying computer code with intermitten colored keywords" title="Code" width="600" height="400" />
+                    <a href="images/classesShelters.jpg" target="_blank">
+                        <img src="images/classesShelters.jpg" alt="Leanto shelter in the woods." title="Leanto Shelter" />
                     </a>
-                    <div class="description">This is a sample image description.</div>
+                    <div class="description">Shelter Building.</div>
                 </div>
                 <div class="galleryItem">
-                    <a href="../images/pankaj-patel-561360-unsplash.jpg" target="_blank">
-                        <img src="../images/pankaj-patel-561360-unsplash.jpg" alt="Split angled black display screen with code written." title="Code" width="600" height="400" />
+                    <a href="images/classesRockClimbing.jpg" target="_blank">
+                        <img src="images/classesRockClimbing.jpg" alt="A man rock climbing." title="Rock Climbing" />
                     </a>
-                    <div class="description">This is a sample image description.</div>
+                    <div class="description">Rock Climbing Class.</div>
                 </div>
             </div>
         </article>
     </main>
     <section>
 
-        <table>
+        <table style="font-size: 1.3em">
             <thead>
                 <tr>
                     <th colspan="4" class="tableHeader">  Wilderness Survivalists - Class List</th>
@@ -196,7 +199,9 @@
     </section>
 
     <footer>
-        All Rights Reserved 2021
+        <p id="footerText">
+            All Rights Reserved 2021
+        </p>
     </footer>
 </body>
 </html>

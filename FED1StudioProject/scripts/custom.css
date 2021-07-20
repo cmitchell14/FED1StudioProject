@@ -10,10 +10,15 @@ font-family: 'Ubuntu', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 /*Body Design*/
-body{
-    margin:0;
+body {
+    margin: .5em;
+    background-image: url('../images/Background_Mountains.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 /*General Main Styling*/
+
 main {
     font-family: 'Ubuntu';
     color: #444D54;
@@ -70,15 +75,6 @@ nav li {
     margin: 0 0 0 5%;
 }
 
-/*Background*/
-
-body {
-    background-image: url('../images/Background_Mountains.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 /*Footer*/
 footer {
     color: #444D54;
@@ -86,12 +82,12 @@ footer {
     border-bottom: solid 1px;
     background-color: #ABC1D4;
     font-family: Ubuntu;
-    font-size: .75em;
-    font-weight: bold;
-    margin-bottom:0;
+    font-size: .85em;
     height: 3em;
-   
-
+    width: 100%;
+}
+#footerText{
+    margin-left: 5em;
 }
 
 /*#region Classes Page Table*/
@@ -101,9 +97,9 @@ footer {
 /*endregion*/
 
 
-/*Experiment with fixed header & Navigation*/
+
 body {
-    padding-top: 10vw;
+    padding-top: 8em;
 }
 
 #socialMedia {
@@ -111,6 +107,8 @@ body {
     font-size: 2vw;
     padding: 0 .8em;
 }
+
+/*Experiment with fixed header & Navigation*/
 
 .fixed-header {
     width: 100%;

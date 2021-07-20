@@ -71,8 +71,14 @@
     <Content Include="favicon.ico" />
     <Content Include="images\AboutUsMountainImage.jpg" />
     <Content Include="images\Background_Mountains.jpg" />
+    <Content Include="images\BearGrylls.jpg" />
+    <Content Include="images\bulletLogo.jpg" />
+    <Content Include="images\classesBackpacking.jpg" />
+    <Content Include="images\classesFire.jpg" />
     <Content Include="images\classesFishing.jpg" />
-    <Content Include="images\classFires.jpg" />
+    <Content Include="images\classesHunting.jpg" />
+    <Content Include="images\classesRockClimbing.jpg" />
+    <Content Include="images\classesShelters.jpg" />
     <Content Include="images\Logo_WilSurvive.jpg" />
     <Content Include="images\PolarBear_AboutUs.jpeg" />
     <Content Include="images\WildernessSurvivalistsLogo.jpg" />
